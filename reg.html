@@ -1,0 +1,91 @@
+
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="description" content="百度帐号是登录所有百度系产品的通行证，登录后还可以在帐户管理页管理/修改您的个人信息，包括修改密码、绑定手机、身份认证等">
+		<title>
+		注册百度帐号
+		</title>
+		<link href="./reg.css" type="text/css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="mod-new-reg-bg">	
+		</div>
+		<div class="mod-new-reg-wrapper">
+				<div class="mod-new-reg-logo">
+					<img src="./images/baidu.png">
+				</div>
+				<div class="mod-new-reg-text">
+					<h3>用科技</h3>
+					<p>让复杂的世界更简单</p>
+				</div>
+				<div class="mod-new-reg-footer">
+					<span class="mod-new-reg-help">
+					<a class="mode-new-reg-help-text" href="https://passport.baidu.com/v2/?ucenterfeedback#reg" target="_blank">帮助中心</a>
+					<span class="mod-new-reg-line"></span>
+					<a class="mod-new-reg-service" href="https://zhiqiu.baidu.com/imcswebchat/roulette/in?id=48721&amp;token=1nnbs7op4ocsr68143oamrjq9c4eoin2&amp;domainID=pass&amp;type=2"></a>
+					</span>
+					<span class="mod-new-reg-copyright">2020&nbsp;©Baidu</span>
+				</div>
+		</div>
+		<div class="mod-reg clearfix mod-reg- mod-new-reg-content">
+			<div class="new-reg-guide-login">
+			<h3>欢迎注册</h3>
+			<p>已有帐号？<span id="login_btn">登录</span></p>
+			</div>
+			<div class="reg-content tang-pass-reg" id="reg_content">
+				<form id="form" class="form" method="POST">
+					<p id="userNamep" class="userNamep" style="display:">
+						<label for="userNameLabel" id="userNameLabel" class="userNameLabel label">	用户名
+						</label>
+						<input id="userNameInput" type="text" name="userName" class="userNameInput input" value="" placeholder="请设置用户名">
+						<br/>
+						<span id='username_infor' class='infor'></span>
+					</p>
+					<p id="phonep" class="phonep" style="display:">
+						<label for="phoneLabel" id="phoneLabel" class="phoneLabel label">
+							手机号
+						</label>
+						<input id="phoneInput" type="text" name="phone" class="phoneInput input" value="" placeholder="可用于登录或找回密码">
+						<span id='phone_infor' class='infor'></span>
+
+					</p>
+					<p id="pwdp" class="pwdp" style="display:">
+						<label for="pwdLabel" id="pwdLabel" class="pwdLabel label">
+							密&nbsp;&nbsp;&nbsp;码
+						</label>
+						<input id="pwdInput" type="text" name="pwd" class="pwdInput input" value="" placeholder="请设置登录密码">
+						<span id='pwd_infor' class='infor'></span>
+					</p>
+					<p id="yanp" class="yanp" style="display:">
+						<label for="yanLabel" id="yanLabel" class="yanLabel label">
+							验证码
+						</label>
+						<input id="yanInput1" type="text" name="yan" class="yanInput1" value="" placeholder="请输入验证码">
+						<input id="yanInput2" type="button" value="获取验证码" class="yanInput2"> 
+						<span id='yan_infor' class='infor'></span>
+					</p>
+					<p id="submitp" class="submitp">
+						<input id="submitInput" type="submit" value="注册" class="submitInput" disabled="">
+					</p>
+					<p id="isAgreep" class="isAgreep">
+						<input name="isAgree" id="isAgreeInput" type="checkbox" class="isAgreeInput" >
+						<label for="isAgree">阅读并接受</label>
+						<a  target="_blank" 
+							href="http://passport.baidu.com/static/passpc-account/html/protocal.html">《百度用户协议》
+						</a>及
+						<a target="_blank" href="http://privacy.baidu.com/mdetail?id=288">		《百度隐私权保护声明》
+						</a>
+						<a>
+							<span id="isAgreeError" class="isAgreeError"></span>
+						</a>
+					</p>
+				</form>
+			</div>
+		</div>
+
+	</body>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src='./reg.js'></script>
+</html>

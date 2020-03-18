@@ -1,0 +1,197 @@
+
+.mod-new-reg-bg {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: url(./images/reg_bg_min.jpg) no-repeat;
+    background-size: cover;
+    
+}
+.mod-new-reg-wrapper .mod-new-reg-logo {
+    position: fixed;
+    left: 70px;
+    top: 60px;
+    width: 124.4px;
+    height: 40px;
+}
+.mod-new-reg-wrapper .mod-new-reg-text {
+    position: fixed;
+    left: 195px;
+    top: 314px;
+    color: #fff;
+}
+.mod-new-reg-wrapper .mod-new-reg-text h3 {
+    font-size: 54px;
+    letter-spacing: 0;
+    font-weight: 700;
+}
+.mod-new-reg-wrapper .mod-new-reg-text p {
+    font-size: 32px;
+    letter-spacing: 3.81px;
+    font-weight: 300;
+}
+.mod-new-reg-wrapper .mod-new-reg-footer {
+    position: fixed;
+    left: 70px;
+    bottom: 57px;
+    font-size: 14px;
+    color: #fff;
+}
+.mod-new-reg-wrapper .mod-new-reg-footer .mod-new-reg-help .mode-new-reg-help-text {
+    filter: alpha(opacity=80);
+    opacity: .8;
+}
+.mod-new-reg-wrapper .mod-new-reg-footer .mod-new-reg-help a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+a {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-appearance: none;
+}
+.mod-new-reg-wrapper .mod-new-reg-footer .mod-new-reg-help .mod-new-reg-line {
+    display: inline-block;
+    width: 2px;
+    height: 12px;
+    filter: alpha(opacity=78);
+    opacity: .78;
+    margin: 0 12px 0 13px;
+    background: #fff;
+    position: relative;
+    top: 1px;
+}
+.mod-new-reg-service {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(./images/service-2x.png) no-repeat;
+    background-size: 100%;
+    position: relative;
+    top: 3px;
+}
+.mod-new-reg-wrapper .mod-new-reg-footer .mod-new-reg-copyright {
+    filter: alpha(opacity=54);
+    opacity: .54;
+    font-size: 12px;
+    color: #fff;
+    display: inline-block;
+    padding-left: 30px;
+}
+@media screen and (max-height: 752px)
+.mod-new-reg-content {
+    height: 518px;
+    margin-top: -259px;
+}
+.mod-new-reg-content {
+    position: absolute;
+    right: 139px;
+    top: 15%;
+    width: 480px;
+    background: rgba(255,255,255,.9);
+    border-radius: 12px;
+    overflow: hidden;
+}
+.clearfix {
+    zoom: 1;
+    padding-left: 2%;
+}
+@media screen and (max-height: 752px)
+.mod-new-reg-content .new-reg-guide-login {
+    margin: 30px 0 0 39px;
+}
+.mod-new-reg-content .new-reg-guide-login h3 {
+    font-size: 36px;
+    color: #000;
+    padding-bottom: 4px;
+}
+.mod-new-reg-content .new-reg-guide-login p {
+    font-size: 14px;
+    color: #9B9B9B;
+}
+.mod-new-reg-content .new-reg-guide-login p span {
+    color: #2e58ff;
+    cursor: pointer;
+}
+.mod-new-reg-content .new-reg-guide-login p {
+    font-size: 14px;
+}
+.label {
+    font-size: 20px;
+    color: #333;
+    display: block;
+    float: left;
+    margin-right: 5%;
+}
+.input {
+    background: #fff;
+    padding: 11px 10px;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 70%;
+    height:20px;
+    color: #000;
+}
+.yanInput1 {
+    background: #fff;
+    padding: 11px 10px;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 40%;
+    height:20px;
+    color: #000;
+    margin-right: 5%;
+}
+.yanInput2 {
+    background: #fff;
+    padding: 11px 10px;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 25%;
+    height:40px;
+    color: #000;
+}
+@media screen and (max-height: 752px)
+.submitp {
+    padding-top: 40px;
+    margin-top: 0;
+}
+.submitp {
+    margin-bottom: 15px;
+    left: 41px;
+    clear: both;
+    zoom: 1;
+    margin-left: 4%;
+}
+.submitInput {
+    background: #BDCEFC;
+    border-radius: 25px;
+    width: 399px;
+    display: block;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #fff;
+    border: 0;
+    -webkit-transition: .3s;
+    line-height: 32px;
+}
+@media screen and (max-height: 752px)
+.isAgreep {
+    margin-bottom: 20px;
+}
+.isAgreep {
+    margin-left: 41px;
+    width: 399px;
+    text-align: center;
+    position: relative;
+    clear: both;
+    zoom: 1;
+    font-size: 14px;
+}
